@@ -35,12 +35,11 @@
 
     <dependencies>
         <!-- ==================== -->
-        <!--（★）Eureka服务端    -->
+        <!--（★）Config服务端     -->
         <!-- ==================== -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
-            <version>1.4.7.RELEASE</version>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
 
         <dependency>

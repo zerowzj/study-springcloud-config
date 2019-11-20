@@ -1,0 +1,8 @@
+#
+spring:
+  application:
+    name: study-springcloud-config
+  cloud:
+    config:
+      server:
+        git:
